@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="form_main" id="fix">
+
+        <div class="fix" >
+            <!-- <form id="form" action="index.html" method="GET"> -->
+                
+                    <label for="">Name/Organization</label>
+                    <input type="text" id="name" placeholder="Name/Organization">
+                    <br>
+                    <br>
+                    <lable id="name_div" style="visibility: visible;"></lable>
+                    <br>
+                    <br>
+                    <label for="">Email</label>
+                    <input type="email" id="email" class="email_c" placeholder="Email">
+                 <img src="plus-solid.svg" alt="" onclick="addEmail()" width="15px">
+                    <div id="wrapper">
+                    <div id="mail" >
+                    </div>
+                </div>
+                <br>
+                <br>
+                <lable id="email_div" style="visibility: visible;"></lable>
+                    <br>
+                    <br>
+                    <label for="">Phone NO:</label>
+                    <input type="text" id="phone" placeholder="Phone NO">
+                    <br>
+                    <br>
+                    <lable id="phone_div" style="visibility: visible;"></lable>
+                    <br>
+                    <br>
+                    <label for="">Country</label>
+                    <select name="state" id="countySel" size="1">
+                        <option value="" selected="selected">Select Country</option>
+                        </select>
+                    <br>
+                    <br>
+                    <label for="">City</label>
+                    <select name="countrya" id="stateSel" size="1">
+                        <option value="" selected="selected">Please select Country first</option>
+                        </select>
+                    <br>
+               
+                    <br>
+
+                    <lable id="fill_data" style="visibility: visible;"></lable>
+                    <br>
+                    <br>
+
+                   
+                    <button id="btn1" type="submit" onclick="addItem()">Submit</button>
+        
+                    <br><br>
+                </div>
+
+                <!-- </form> -->
+
+       
+                
+            <div class="fix" id="form2">
+                <form action="index.html" method="GET"> 
+                    <label for="">Booking for</label>
+
+                    <select name="book_names" id="booker" size="1">
+                        <option value="" selected="selected">Select Name</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="">Date</label>
+                        <input type="date" id="date" placeholder="Date">
+                        <br>
+                        <br>
+
+                        <label for="">No. of advertisement</label>
+
+                        <select name="book_names" id="adv" size="1">
+                            <option value="" >Select Number</option>
+                            <option value="1" >1</option>
+                            <option value="2" >2</option>
+                            <option value="3" >3</option>
+                            <option value="4" >4</option>
+                            <option value="5" >5</option>
+                            <option value="6" >6</option>
+                            <option value="7" >7</option>
+                            </select>
+
+                            <div id="charge">
+
+                            </div>
+                            <br>
+                            <br>
+
+                            <button type="submit" onclick="addadv()"> Submit</button>
+                            <!-- <button type="submit" onclick="showme()">Show</button> -->
+
+                            <div id="mydata">
+
+                            </div>
+                    
+      
+    </div>
+</form>
+
+        </div>
+                
+                   
+               
+
+
+   
+
+    
+    
+</body>
+</html>
+
+

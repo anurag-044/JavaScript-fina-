@@ -1,0 +1,32 @@
+body,
+html {
+  max-width: 100%;
+}
+
+.form_main{
+  display: flex;
+}
+
+
+.fix {
+  width: 50%;
+  
+  display: table;
+ 
+}
+
+.fix input {
+  width: 40%;
+}
+
+.fix label {
+  display: inline-block;
+  width: 20%;
+ 
+}
+
+.fix select{
+  width: 30%;
+}
+
+
